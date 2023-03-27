@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "nbc",
+	"version": "${version}",
+	"name": "Netherite But Cheaper",
+	"description": "Doesn't change much at all other then some recipes to make netherite ever so slightly cheaper",
+	"authors": [
+		"LordEnder_Kitty"
+	],
+	"contact": {
+		"sources": "https://github.com/LordEnder-Kitty/netherite-but-cheaper"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.enderkitty.NBC"
+		]
+	},
+	"mixins": [
+		"nbc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": ">=1.18",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

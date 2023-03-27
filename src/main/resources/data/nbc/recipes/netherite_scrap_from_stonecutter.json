@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "netherite",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:ancient_debris"
+  },
+  "result": "minecraft:netherite_scrap"
+}
